@@ -24,6 +24,7 @@ if (entered > 0) {
         document.getElementById("result").innerHTML = repeat(entered);
     } else {
         console.log(text);
+        document.getElementById("result").innerHTML = text;
     }
 } else {
     console.warn("Wrong data!");
